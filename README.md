@@ -47,17 +47,14 @@
  ### Base Model: Logistic Regression
  Logistic Regression was chosen as a simple and interpretable baseline model.
  Results:
- - Accuracy: ~0.81
+ - Accuracy: ~0.80
  - ROC-AUC: 0.8416
 
  ### Improved Model: Random Forest
  Random Forest was used to capture non-linear relationships between features.
  Results:
- - Accuracy: ~0.82
+ - Accuracy: ~0.80
  - ROC-AUC: 0.8433
-
- ---
- ## Model Comparison
 
  ---
 
@@ -82,6 +79,6 @@
  - Both models perform well on the Telco dataset.
  - Random Forest achieved the highest ROC-AUC (0.8433).
  - Logistic Regression performed nearly as well with lower complexity and higher interpretability.
- 
+
  The performance improvement from Random Forest is negligible, while it adds complexity and computational overhead. Therefore, Logistic Regression is the preferred model due to its simplicity, efficiency, and comparable predictive performance.
 
